@@ -14,7 +14,8 @@ public class Liders {
 
 
     }
-
+//метод показващ дали даден ход е валиден според правилата за местене на лидера
+   
     public boolean isMoveValid (int moveRow, int moveCol ) {
 
         int rowCoeficiaent = moveRow - this.row;
@@ -26,7 +27,7 @@ public class Liders {
     }
 
 
-
+//метод рисуващ и позициониращ  лидерите в играта 
     public void render (Graphics g) {
 
         g.setColor(Color.YELLOW);
